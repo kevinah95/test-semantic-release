@@ -22,8 +22,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 'lts/*'
-          
-      - run: npm ci
+      
+      - name: Install semantic-release
+        run: |
+          npm install -D semantic-release@latest \
+            @semantic-release/changelog@latest \
+            @semantic-release/git@latest \
+            @semantic-release/exec@latest
       
       - run: npx semantic-release
         env:
