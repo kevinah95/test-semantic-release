@@ -18,3 +18,4 @@ jobs:
         with:
           token: ${{ secrets.RELEASE_PLEASE_PAT }}
           target-branch: ${{ github.ref_name }}
+          prerelease: ${{ github.ref_name == 'alpha' }}
