@@ -1,3 +1,10 @@
+## [1.3.1-alpha.1](https://github.com/kevinah95/test-semantic-release/compare/v1.3.0...v1.3.1-alpha.1) (2026-03-13)
+
+
+### Bug Fixes
+
+* **package:** 🐛 Update test script error message for clarity ([90c6d57](https://github.com/kevinah95/test-semantic-release/commit/90c6d57426fe7b5082d0c90d76567a28495a62f3))
+
 # [1.3.0](https://github.com/kevinah95/test-semantic-release/compare/v1.2.0...v1.3.0) (2026-03-13)
 
 
