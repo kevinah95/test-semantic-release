@@ -1,6 +1,6 @@
 {
   "name": "test-semantic-release",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "",
   "license": "ISC",
   "author": "",
@@ -8,9 +8,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "semantic-release": "semantic-release-cli setup"
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
-    "semantic-release-cli": "^5.4.6"
+    "semantic-release-cli": "^5.4.6",
+    "semantic-release": "^25.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevinah95/test-semantic-release.git"
   }
 }
