@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/kevinah95/test-semantic-release/compare/v1.1.1...v1.1.2) (2026-03-13)
+
+
+### Bug Fixes
+
+* **scripts:** 🐛 Update test script error message for clarity ([5074c00](https://github.com/kevinah95/test-semantic-release/commit/5074c00a53478f80cee29802f0ee7decd68d0bb0))
+
 ## [1.1.1](https://github.com/kevinah95/test-semantic-release/compare/v1.1.0...v1.1.1) (2026-03-13)
 
 
