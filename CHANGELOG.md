@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/kevinah95/test-semantic-release/compare/v1.1.2...v1.2.0) (2026-03-13)
+
+
+### Features
+
+* **release:** ✨ Mark alpha releases as prerelease ([6cfd616](https://github.com/kevinah95/test-semantic-release/commit/6cfd6168144e274ad1e888112e12de518eea4a86))
+
 ## [1.1.2](https://github.com/kevinah95/test-semantic-release/compare/v1.1.1...v1.1.2) (2026-03-13)
 
 
