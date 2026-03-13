@@ -1,3 +1,18 @@
+# [1.2.0](https://github.com/kevinah95/test-semantic-release/compare/v1.1.2...v1.2.0) (2026-03-13)
+
+
+### Bug Fixes
+
+* **package:** 🐛 Update test script error message for clarity ([c8f6716](https://github.com/kevinah95/test-semantic-release/commit/c8f67166c3e1aa541e9659f0750aa2611a5c4b57))
+
+
+### Features
+
+* **release:** ✨ Add exec plugin for verifying conditions and preparing releases ([7aebe5b](https://github.com/kevinah95/test-semantic-release/commit/7aebe5b3307de769ff19f518919912984694caf4))
+* **release:** ✨ Mark alpha releases as prerelease ([6cfd616](https://github.com/kevinah95/test-semantic-release/commit/6cfd6168144e274ad1e888112e12de518eea4a86))
+* **release:** ✨ Update release workflow to use semantic-release-action ([ab23bdf](https://github.com/kevinah95/test-semantic-release/commit/ab23bdf5e10c5d2f5b95c3fba477b9d06742aab0))
+* switch to semantic-release from release-please ([feb5fcd](https://github.com/kevinah95/test-semantic-release/commit/feb5fcd0158b79b2317bc02114ef5c45f4ab1418))
+
 # [1.2.0-alpha.1](https://github.com/kevinah95/test-semantic-release/compare/v1.1.2...v1.2.0-alpha.1) (2026-03-13)
 
 
