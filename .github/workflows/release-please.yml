@@ -15,7 +15,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: googleapis/release-please-action@v4
+        id: release
         with:
           token: ${{ secrets.RELEASE_PLEASE_PAT }}
           target-branch: ${{ github.ref_name }}
-          prerelease: ${{ github.ref_name == 'alpha' }}
+      
+      - name: Mark alpha releases as prerelease
+        if: ${{ steps.release.outputs.release_created && github.ref_name == 'alpha' }}
+        env:
+          GH_TOKEN: ${{ secrets.RELEASE_PLEASE_PAT }}
+        run: |
+          gh release edit ${{ steps.release.outputs.tag_name }} --prerelease --repo ${{ github.repository }}
