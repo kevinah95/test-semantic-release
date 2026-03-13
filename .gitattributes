@@ -1,1 +1,3 @@
+# Keep these files separate per branch - don't merge them
+CHANGELOG.md merge=ours
 .release-please-manifest.json merge=ours
