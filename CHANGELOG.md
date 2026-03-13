@@ -1,3 +1,16 @@
+# [1.3.0](https://github.com/kevinah95/test-semantic-release/compare/v1.2.0...v1.3.0) (2026-03-13)
+
+
+### Bug Fixes
+
+* **package:** 🐛 Update test script error message for clarity ([e81ca45](https://github.com/kevinah95/test-semantic-release/commit/e81ca450df1348bf67413cb11253b86ea525eb34))
+* **package:** 🐛 Update test script error message for clarity ([6aeed17](https://github.com/kevinah95/test-semantic-release/commit/6aeed179d9a2344850a4e45bf06f2b696b94a5a8))
+
+
+### Features
+
+* **release:** ✨ Add alpha and production build steps to release workflow ([0c75664](https://github.com/kevinah95/test-semantic-release/commit/0c75664b602e944e992f387a28a27b3a8b7cfdaa))
+
 ## [1.2.1-alpha.2](https://github.com/kevinah95/test-semantic-release/compare/v1.2.1-alpha.1...v1.2.1-alpha.2) (2026-03-13)
 
 
