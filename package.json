@@ -7,7 +7,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified retry samples expected\" && exit 1"
+    "test": "echo \"Error: no test specified retry samples new\" && exit 1"
   },
   "repository": {
     "type": "git",
