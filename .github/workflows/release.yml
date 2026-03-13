@@ -38,3 +38,29 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  build-alpha:
+    needs: release
+    if: |
+      needs.release.outputs.new_release_published == 'true' &&
+      github.ref == 'refs/heads/alpha'
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "Building alpha release ${{ needs.release.outputs.new_release_version }}"
+          echo "Tag: ${{ needs.release.outputs.new_release_git_tag }}"
+          # Add your alpha build commands here
+          # Example: npm run build:alpha
+  
+  build-prod:
+    needs: release
+    if: |
+      needs.release.outputs.new_release_published == 'true' &&
+      github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "Building production release ${{ needs.release.outputs.new_release_version }}"
+          echo "Tag: ${{ needs.release.outputs.new_release_git_tag }}"
+          # Add your production build commands here
+          # Example: npm run build:prod
